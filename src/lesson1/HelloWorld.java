@@ -17,5 +17,6 @@ public class HelloWorld {
 
         System.out.println("бал");
         System.out.println("бес");
+
     }
 }
