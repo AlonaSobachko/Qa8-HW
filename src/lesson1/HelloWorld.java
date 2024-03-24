@@ -9,14 +9,11 @@ public class HelloWorld {
         System.out.println("Моє ім'я занадто значиме, щоб я говорив його вголос.");
         System.out.println("А ти хто?");
 
-        System.out.println("кон");
-        System.out.println("соль");
+        System.out.println("кон" + "соль");
 
-        System.out.println("бал");
-        System.out.println("кон");
+        System.out.println("бал" + "кон");
 
-        System.out.println("бал");
-        System.out.println("бес");
+        System.out.println("бал" + "бес");
 
     }
 }
