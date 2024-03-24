@@ -10,6 +10,7 @@ public class HelloWorld {
         System.out.println("Моє ім'я занадто значиме, щоб я говорив його вголос.");
         System.out.println("А ти хто?");
 
+
         System.out.println("Задача 2");
         System.out.println("кон" + "соль");
         System.out.println("бал" + "кон");
