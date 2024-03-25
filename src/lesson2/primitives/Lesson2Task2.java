@@ -1,4 +1,4 @@
-package lesson2;
+package lesson2.primitives;
 
 public class Lesson2Task2 {
     // x = 5;

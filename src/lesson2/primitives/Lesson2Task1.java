@@ -1,4 +1,4 @@
-package lesson2;
+package lesson2.primitives;
 
 public class Lesson2Task1 {
     //1) x = (2 - 5*(9%4 - 7))%3;

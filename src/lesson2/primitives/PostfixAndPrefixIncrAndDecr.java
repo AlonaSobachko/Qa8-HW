@@ -1,4 +1,4 @@
-package lesson2;
+package lesson2.primitives;
 
 public class PostfixAndPrefixIncrAndDecr {
     public static void main(String[] args) {
