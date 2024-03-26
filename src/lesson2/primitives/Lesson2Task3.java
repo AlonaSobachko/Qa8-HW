@@ -12,6 +12,8 @@ public class Lesson2Task3 {
         System.out.println(a + " " + b + " " + c);
 
         System.out.println("===================");
-
+        int number = 5;
+        System.out.println("Число " + number + " парне??? ");
+        System.out.println(number % 2 == 0);
     }
 }
