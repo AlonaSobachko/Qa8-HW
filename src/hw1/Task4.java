@@ -14,7 +14,7 @@ public class Task4 {
         a = (a * b) / a;
         b += --b + a;
         b = --b % a;
-        System.out.println(a);
-        System.out.println(b);
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
     }
 }
