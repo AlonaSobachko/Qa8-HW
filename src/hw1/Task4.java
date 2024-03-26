@@ -16,5 +16,6 @@ public class Task4 {
         b = --b % a;
         System.out.println("a = " + a);
         System.out.println("b = " + b);
+
     }
 }
