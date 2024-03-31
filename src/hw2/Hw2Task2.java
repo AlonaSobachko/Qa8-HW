@@ -17,5 +17,18 @@ public class Hw2Task2 {
         System.out.println("Слово 3 = " + strings[2] + " Довжина цього слова = " + strings[2].length());
         System.out.println("Слово 4 = " + strings[3] + " Довжина цього слова = " + strings[3].length());
         System.out.println("Слово 5 = " + strings[4] + " Довжина цього слова = " + strings[4].length());
+        System.out.println(strings[0].length() > strings[1].length() && strings[0].length() >
+                strings[2].length() && strings[0].length() > strings[3].length() && strings[0].length() >
+                strings[4].length());
+        if (strings[0].length() > strings[1].length()) {
+            System.out.println(true);
+        } else if (strings[0].length() > strings[2].length()) {
+            System.out.println(true);
+        } else if (strings[0].length() > strings[3].length()) {
+            System.out.println(true);
+        } else if (strings[0].length() > strings[4].length()) {
+            System.out.println(true);
+        }
+        else System.out.println(false);
     }
 }
