@@ -1,4 +1,4 @@
-package lesson3;
+package lesson3.string;
 
 public class Lesson3Task1 {
     // Создать 5 люьих переменных типа String (world1, world2, world3, world4, world5)
