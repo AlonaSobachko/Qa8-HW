@@ -18,6 +18,7 @@ public class Hw3Task1 {
         System.out.println("String 2 - " + string2);
         System.out.println("String 3 - " + string3);
         System.out.println("String 4 - " + string4);
+        scanner.close();
 
     }
 }
