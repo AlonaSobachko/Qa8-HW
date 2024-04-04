@@ -37,5 +37,6 @@ public class Hw3Task5 {
                 correct = false;
         }
         System.out.println(correct ? answer : 0);
+        scanner.close();
     }
 }
