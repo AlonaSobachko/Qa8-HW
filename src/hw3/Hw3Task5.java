@@ -8,10 +8,34 @@ public class Hw3Task5 {
     // Якщо користувач ввів щось окрім даних символів, необхідно вивести 0.
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Веведіть два числа та бажану дію, яку необхідно виканати");
+        System.out.println("Введіть перше число");
         int number1 = scanner.nextInt();
+        System.out.println("Введіть друге числоЄ");
         int number2 = scanner.nextInt();
-        String operation = scanner.nextLine();
-
+        System.out.println("Введіть арифметичну дію");
+        char operator = scanner.next().charAt(0);
+        int answer;
+        boolean correct = true;
+        switch (operator) {
+            case '+':
+               answer = number1 + number2;
+                break;
+            case '-':
+                answer = number1 - number2;
+                break;
+            case '/':
+                answer = number1 / number2;
+                break;
+            case '*':
+                answer = number1 * number2;
+                break;
+            case '%':
+                answer = number1 % number2;
+                break;
+            default:
+                answer = 0;
+                correct = false;
+        }
+        System.out.println(correct ? answer : 0);
     }
 }
