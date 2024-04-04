@@ -72,5 +72,6 @@ public class Hw3Task6 {
                 System.out.println("Not found program!!!");
                 break;
         }
+        scanner.close();
         }
     }
