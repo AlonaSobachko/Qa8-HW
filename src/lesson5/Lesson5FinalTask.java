@@ -22,15 +22,14 @@ public class Lesson5FinalTask {
         Scanner scanner = new Scanner(System.in);
         String text = scanner.nextLine();
         String result = "";
-        if (text.split("\\d").length == 1){
+        if (text.split("\\d").length == 1) {
             System.out.println("В даному рядку немає числових значень");
-        }
-        else {
+        } else {
             //afbasfb89abfafb74kjbkljashg904j8;kj;h498
-            for (int i = 0; i < text.length(); i++){
-                if (Character.isDigit(text.charAt(i))){
+            for (int i = 0; i < text.length(); i++) {
+                if (Character.isDigit(text.charAt(i))) {
                     result = result + text.charAt(i);
-                    while (i + 1 != text.length() &&Character.isDigit(text.charAt(i + 1))){
+                    while (i + 1 != text.length() && Character.isDigit(text.charAt(i + 1))) {
                         i = i + 1;
                         result = result + text.charAt(i);
                     }
@@ -42,8 +41,20 @@ public class Lesson5FinalTask {
         System.out.println(result);
         String[] resultArrayString = result.split("\\s");
         int[] arrayInt = new int[resultArrayString.length];
-        for (int i = 0; i < resultArrayString.length; i++){
+        for (int i = 0; i < resultArrayString.length; i++) {
             arrayInt[i] = Integer.parseInt(resultArrayString[i]);
+        }
+
+        System.out.println(Arrays.toString(arrayInt));
+        for (int i = 0; i < arrayInt.length; i++) {
+            int min;
+            for (int a = i + 1; a < arrayInt.length; a++) {
+                if (arrayInt[i] > arrayInt[a]) {
+                    min = arrayInt[a];
+                    arrayInt[a] = arrayInt[i];
+                    arrayInt[i] = min;
+                }
+            }
         }
         System.out.println(Arrays.toString(arrayInt));
     }
