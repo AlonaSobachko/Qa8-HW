@@ -37,5 +37,6 @@ public class Hw5Task1 {
                 break;
             }
         }
+        sc.close();
     }
 }
