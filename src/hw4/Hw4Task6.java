@@ -1,5 +1,6 @@
 package hw4;
 
+import java.util.Arrays;
 import java.util.Random;
 
 public class Hw4Task6 {
