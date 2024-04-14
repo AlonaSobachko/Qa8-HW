@@ -26,6 +26,16 @@ public class MyArrayMethods {
         return min;
     }
 
+    public static int returnMaximumFromArray(int[] array){
+        int maximum = array[0];
+        for(int i = 0; i < array.length; i++){
+            if(maximum < array[i]){
+                maximum = array[i];
+            }
+        }
+        return maximum;
+    }
+
     public static int[] reverseSort(int[] array) {
         int[] xReverse = new int[array.length];
         int counter = 0;
