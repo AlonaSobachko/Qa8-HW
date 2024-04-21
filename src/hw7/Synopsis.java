@@ -1,6 +1,6 @@
 package hw7;
 
-public class Hw7Task3 {
+public class Synopsis {
     //Створити клас Конспект. Клас повинен містити такі поля:
     // • ПІБ студента;
     // • Назва предмету;
@@ -16,7 +16,7 @@ public class Hw7Task3 {
     private String colorOfCover;
     private String nameOfTheInstitution;
 
-    public void Synopsis (String fullName, String subjectName, int countOfPage, int graduationYear,
+    public Synopsis (String fullName, String subjectName, int countOfPage, int graduationYear,
                           String colorOfCover, String nameOfTheInstitution){
         this.fullName = fullName;
         this.subjectName = subjectName;
