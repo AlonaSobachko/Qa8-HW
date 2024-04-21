@@ -8,14 +8,14 @@ public class House {
 
     private boolean isNew;
 
-    public House(String address, int capacity, int countOfFloors, boolean isNew){
+    public House(String address, int capacity, int countOfFloors, boolean isNew) {
         this.address = address;
         this.capacity = capacity;
         this.countOfFloors = countOfFloors;
         this.isNew = isNew;
     }
 
-    public House(String address, int capacity, boolean isNew, int countOfFloors){
+    public House(String address, int capacity, boolean isNew, int countOfFloors) {
         this(capacity, isNew);
         this.address = address;
         this.countOfFloors = countOfFloors;
@@ -25,7 +25,7 @@ public class House {
 
     }
 
-    public House(int capacity, boolean isNew){
+    public House(int capacity, boolean isNew) {
         this.capacity = capacity;
         this.isNew = isNew;
     }
@@ -62,7 +62,7 @@ public class House {
         isNew = aNew;
     }
 
-    public void getAllInfoAboutHouse(){
+    public void getAllInfoAboutHouse() {
         System.out.println("Your address: " + address);
         System.out.println("Your capacity " + capacity);
         System.out.println("Count of floors " + countOfFloors);
