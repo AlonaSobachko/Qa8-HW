@@ -7,12 +7,10 @@ public class ConverterCheck {
         System.out.println(converter.convertToInt((short) 20));
         System.out.println(converter.convertToInt(30));
         System.out.println(converter.convertToInt(40L));
-        System.out.println(converter.convertToInt("a"));
         System.out.println(converter.convertToInt(true));
         System.out.println("==============================");
         System.out.println(converter.convertToDouble((byte) 15));
         System.out.println(converter.convertToDouble((short) 20));
-        System.out.println(converter.convertToDouble("A"));
         System.out.println(converter.convertToDouble(true));
         System.out.println("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
         System.out.println(converter.convertToString(true));

@@ -1,6 +1,14 @@
 package hw8.task3;
 
 public class Converter {
+    //Необхідно створити клас конвертер, який матиме методи конвертації примітивних типів даних:
+    // • метод convertToInt; (Конвертує byte, short, int, long, char, float, double, String).
+    // При введенні boolean виводить повідомлення, що введено тип boolean.
+    // • convertToDouble; (Конвертує byte, short, int, long, char, float, double, String).
+    // При введенні boolean виводить повідомлення, що введено тип boolean.
+    // • converToString; (Конвертує byte, short, int, long, char, boolean, float, double, String).
+    // Цей клас повинен мати лише один конструктор, у параметрах якого можна вказати його ім'я.
+    // А також лише один метод геттер для отримання інформації про назву конвертру.
     private String name;
 
     public Converter(String name) {
