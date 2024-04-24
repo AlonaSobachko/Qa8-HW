@@ -1,4 +1,4 @@
-package hw8;
+package hw8.task1;
 
 import java.util.Objects;
 
