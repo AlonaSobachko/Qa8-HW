@@ -45,7 +45,6 @@ public class Hw6Task2 {
             else {
                 gameBoard[row][colum] = '*';
             }
-            sc.close();
         }
     }
 
@@ -57,6 +56,7 @@ public class Hw6Task2 {
         }
     }
     public static void printGameBoard(char[][] gameBoard) {
+        System.out.println("  1 2 3 4 5 ");
         for (int i = 0; i < gameBoard.length; i++) {
             System.out.print((i + 1) + " ");
             for (int j = 0; j < gameBoard.length; j++) {
