@@ -8,7 +8,11 @@ public class Family {
     private Human father;
     private Human[] children;
     private Pet pet;
-
+    public Family(){
+        if (mother == null || father == null) {
+            throw new IllegalArgumentException("Необхідно вказати обох, і батька, і матір.");
+        }
+    }
     public Family(Human mother, Human father) {
         if (mother == null || father == null) {
             throw new IllegalArgumentException("Необхідно вказати обох, і батька, і матір.");
@@ -18,6 +22,7 @@ public class Family {
         this.mother.setFamily(this);
         this.father.setFamily(this);
         this.children = new Human[0];
+        this.pet = pet;
     }
 
     public void addChild(Human child) {

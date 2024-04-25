@@ -11,7 +11,7 @@ public class Pet {
     private String[] habits;
 
     public void eat() {
-        System.out.println("Я ї'м!");
+        System.out.println("Я їм!");
     }
 
     public void respond() {
