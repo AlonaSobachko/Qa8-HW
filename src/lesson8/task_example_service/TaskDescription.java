@@ -27,5 +27,20 @@ public class TaskDescription {
    Езжайте в {Название города}. Но не забывайте, что согласно
    договору {айди договора} вы обслуживаетесь у нас.
    Ваша {Название Сервиса}.*/
-
+     public static void main(String[] args) {
+         Auto auto = new Auto("Audi", 20000, 300);
+         Human human = new Human("Ivasik", auto);
+         Contract contract = new Contract(112233, human);
+         City city = new City("Dnipro", 600);
+         Service service = new Service("Шаловливая компрессия");
+         service.needToDoService(city, contract);
+         System.out.println();
+         new Service("Шаловливая компрессия").needToDoService(
+                 new City("Dnipro", 600),
+                 new Contract(229933, new Human(
+                         "Maxim", new Auto(
+                                 "Skoda", 15000, 4000)
+                 ))
+         );
+     }
 }
